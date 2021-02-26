@@ -1,0 +1,46 @@
+Arguments: 
+  /Users/mollystruve/.nvm/versions/node/v14.14.0/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js global dir
+
+PATH: 
+  /Users/mollystruve/.rvm/gems/ruby-2.7.2/bin:/Users/mollystruve/.rvm/gems/ruby-2.7.2@global/bin:/Users/mollystruve/.rvm/rubies/ruby-2.7.2/bin:/usr/local/opt/openssl/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/Users/mollystruve/.nvm/versions/node/v14.14.0/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/mollystruve/Library/Python/3.8/bin:/Users/mollystruve/.rvm/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.14.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/mollystruve/forembot/package.json: Unexpected token F in JSON at position 80
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "forembot",
+    "version": "0.0.0",
+    "private": true,
+  
+    "author": ""Forem <systems@forem.com>"",
+  
+    "description": ""Forem's Slack bot ambassador"",
+  
+    "dependencies": {
+    },
+  
+    "engines": {
+      "node": "0.10.x"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

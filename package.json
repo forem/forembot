@@ -13,6 +13,8 @@
     "hubot-heroku-keepalive": "^1.0.3",
     "hubot-maps": "0.0.3",
     "hubot-plusplus": "^1.4.0",
+    "hubot-plusplus-expanded": "^1.2.0",
+    "hubot-plusplus-improved": "^1.4.0",
     "hubot-pugme": "^0.1.1",
     "hubot-redis-brain": "^1.0.0",
     "hubot-rules": "^1.0.0",
